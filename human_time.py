@@ -20,6 +20,8 @@ def human_time(datetime_obj=datetime.now()):
         else:
             human_str = "%s o'clock" % hours[hr]
     else:
+        hours[12] = "twelve"
+        
         if mi < 7:
             human_str = "five past %s" % hours[hr]
         elif mi < 15:
@@ -38,3 +40,6 @@ def human_time(datetime_obj=datetime.now()):
             human_str = "five to %s" % hours[hr]
     
     return human_str
+
+if __name__ == "__main__":
+    print human_time()
