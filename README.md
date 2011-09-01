@@ -1,3 +1,9 @@
+# Don't use yet
+
+I still haven't sorted out the exact time increments and what it should say for each. 
+At present it only has a few inacurrate basic phrases I've added. These will be expanded upon 
+and an actual rational reason as to when phrases change.
+
 # Quick Start
 
 **On OSX**
